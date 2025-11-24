@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web moderno con diseño responsive y estructura semántica">
+    <meta name="keywords" content="desarrollo web, diseño moderno, responsive, flexbox">
+    <meta name="author" content="Tu Nombre">
+    <meta property="og:title" content="Mi Sitio Web Moderno">
+    <meta property="og:description" content="Estructura moderna de sitio web con las mejores prácticas">
+    <meta property="og:type" content="website">
+    
+    <title>Mi Sitio Web Moderno - Inicio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>ModernSite</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Servicios</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Desarrollo Web</a></li>
+                                <li><a href="#">Diseño UX/UI</a></li>
+                                <li><a href="#">Consultoría</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="menu-toggle">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>Creamos experiencias digitales extraordinarias</h2>
+                        <p>Desarrollamos sitios web modernos, funcionales y optimizados que impulsan tu negocio hacia el éxito digital.</p>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary">Comenzar proyecto</a>
+                            <a href="#" class="btn btn-secondary">Ver portfolio</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80" alt="Desarrollador trabajando en código moderno">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="material-icons">code</i>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p>Creamos sitios web modernos y responsivos utilizando las últimas tecnologías y mejores prácticas del desarrollo frontend y backend.</p>
+                        <a href="#" class="feature-link">Saber más <i class="material-icons">arrow_forward</i></a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="material-icons">design_services</i>
+                        </div>
+                        <h3>Diseño UX/UI</h3>
+                        <p>Diseñamos interfaces intuitivas y atractivas que mejoran la experiencia del usuario y aumentan las conversiones de tu negocio.</p>
+                        <a href="#" class="feature-link">Saber más <i class="material-icons">arrow_forward</i></a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="material-icons">speed</i>
+                        </div>
+                        <h3>Optimización</h3>
+                        <p>Optimizamos la velocidad, el SEO y la accesibilidad de tu sitio web para garantizar el mejor rendimiento y posicionamiento.</p>
+                        <a href="#" class="feature-link">Saber más <i class="material-icons">arrow_forward</i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="portfolio-grid">
+                    <article class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Proyecto de e-commerce moderno">
+                            <div class="portfolio-overlay">
+                                <h3>E-commerce Moderno</h3>
+                                <p>Plataforma de comercio electrónico con diseño minimalista</p>
+                                <a href="#" class="btn btn-primary">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Aplicación web corporativa">
+                            <div class="portfolio-overlay">
+                                <h3>App Corporativa</h3>
+                                <p>Aplicación web para gestión empresarial</p>
+                                <a href="#" class="btn btn-primary">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Portfolio creativo responsive">
+                            <div class="portfolio-overlay">
+                                <h3>Portfolio Creativo</h3>
+                                <p>Sitio web portfolio para artista digital</p>
+                                <a href="#" class="btn btn-primary">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside class="sidebar">
+        <div class="container">
+            <div class="sidebar-content">
+                <div class="widget">
+                    <h3>Últimas Noticias</h3>
+                    <article class="news-item">
+                        <h4>Nuevas tendencias en desarrollo web 2024</h4>
+                        <p>Descubre las tecnologías que marcarán el futuro del desarrollo frontend.</p>
+                        <span class="date">15 Enero 2024</span>
+                    </article>
+                    <article class="news-item">
+                        <h4>La importancia del diseño responsivo</h4>
+                        <p>Por qué tu sitio web debe adaptarse a todos los dispositivos.</p>
+                        <span class="date">10 Enero 2024</span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernSite</h3>
+                    <p>Creamos experiencias digitales que conectan marcas con usuarios de manera significativa y memorable.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Desarrollo Web</a></li>
+                        <li><a href="#">Diseño UX/UI</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">Consultoría</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Equipo</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="contact-info">
+                        <p><i class="material-icons">location_on</i> Madrid, España</p>
+                        <p><i class="material-icons">phone</i> +34 123 456 789</p>
+                        <p><i class="material-icons">email</i> info@modernsite.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ModernSite. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Uso</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
